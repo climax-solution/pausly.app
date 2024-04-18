@@ -1,0 +1,506 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="bg-white text-black border-b backdrop-blur-lg border-[#ece9ea] fixed top-0 w-full z-[9999]">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 flex items-center h-[76px]">
+            <!-- Logo -->
+            <div class="flex items-center justify-between md:w-auto w-full">
+                <a href="#" class="hidden md:flex items-center py-5 px-2 text-white flex-1">
+                    <svg width="137.71" height="32" viewBox="0 0 482 112" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M153.922 20.4121C152.265 20.4121 150.922 21.7553 150.922 23.4121V87.4576C150.922 89.1145 152.265 90.4576 153.922 90.4576H165.706C167.363 90.4576 168.706 89.1145 168.706 87.4576V70.9501C168.706 69.2933 170.049 67.9501 171.706 67.9501H178.852C187.896 67.9501 194.736 65.8981 199.372 61.7941C204.084 57.6901 206.44 51.6861 206.44 43.7821C206.44 35.8781 204.122 30.0261 199.486 26.2261C194.926 22.3501 188.048 20.4121 178.852 20.4121H153.922ZM177.028 51.9901H171.706C170.049 51.9901 168.706 50.647 168.706 48.9901V39.3721C168.706 37.7153 170.049 36.3721 171.706 36.3721H177.028C180.98 36.3721 183.868 36.9041 185.692 37.9681C187.592 38.9561 188.542 40.9701 188.542 44.0101C188.542 47.2021 187.516 49.3301 185.464 50.3941C183.488 51.4581 180.676 51.9901 177.028 51.9901ZM411.18 91.7096C407.076 91.7096 403.618 90.4936 400.806 88.0616C397.994 85.5536 396.588 81.6016 396.588 76.2056V23.5901C396.588 21.9332 397.932 20.5901 399.588 20.5901H410.688C412.345 20.5901 413.688 21.9332 413.688 23.5901V72.7856C413.688 73.9256 413.992 74.7236 414.6 75.1796C415.284 75.6356 416.12 75.8636 417.108 75.8636C417.716 75.8636 418.286 75.8256 418.818 75.7496C418.904 75.7282 419.034 75.7078 419.203 75.6813L419.203 75.6812C419.241 75.6753 419.281 75.669 419.322 75.6624C421.866 75.257 425.23 76.9517 425.23 79.5278V85.8735C425.23 86.8972 424.712 87.8606 423.823 88.3683C419.794 90.6698 417.03 91.0467 415.524 91.2521L415.512 91.2536C413.916 91.5576 412.472 91.7096 411.18 91.7096ZM251.678 90.4556C250.716 90.4556 249.886 89.7799 249.692 88.8378L249.296 86.9238C249.091 85.9343 247.777 85.6371 247.062 86.3516V86.3516C245.086 88.4036 242.958 89.8096 240.678 90.5696C238.474 91.3296 236.308 91.7096 234.18 91.7096C230.152 91.7096 226.466 90.9496 223.122 89.4296C219.854 87.8336 217.232 85.5916 215.256 82.7036C213.356 79.8156 212.406 76.4716 212.406 72.6716C212.406 69.4036 213.09 66.5536 214.458 64.1216C215.902 61.6896 217.802 59.8276 220.158 58.5356C221.906 57.5476 223.882 56.8256 226.086 56.3696C228.29 55.9136 230.646 55.6856 233.154 55.6856H247.746C248.25 55.6856 248.658 55.2773 248.658 54.7736V54.7736C248.658 52.1136 247.708 50.2136 245.808 49.0736C243.908 47.9336 241.552 47.3636 238.74 47.3636C235.776 47.3636 232.622 47.9336 229.278 49.0736C227.17 49.7446 225.272 50.5213 223.587 51.4038C222.048 52.2092 220.081 51.8024 219.183 50.3158L215.035 43.4449C214.203 42.0673 214.602 40.2704 215.985 39.4485C219.606 37.2972 223.125 35.7556 226.542 34.8236C230.798 33.6076 235.358 32.9996 240.222 32.9996C248.202 32.9996 254.434 34.9756 258.918 38.9276C263.478 42.8036 265.758 48.0856 265.758 54.7736V87.4556C265.758 89.1125 264.415 90.4556 262.758 90.4556H251.678ZM247.062 73.0136C247.418 72.5052 247.715 71.9712 247.951 71.4117C248.622 69.8279 247.198 68.3396 245.478 68.3396H235.662C234.75 68.3396 233.914 68.4156 233.154 68.5676C232.47 68.7196 231.862 68.9856 231.33 69.3656C230.798 69.7456 230.38 70.2396 230.076 70.8476C229.772 71.3796 229.62 71.9876 229.62 72.6716C229.62 74.2676 230.266 75.5596 231.558 76.5476C232.926 77.4596 234.712 77.9156 236.916 77.9156C239.044 77.9156 240.982 77.4976 242.73 76.6616C244.554 75.7496 245.998 74.5336 247.062 73.0136ZM297.77 91.7096C292.83 91.7096 288.802 90.7596 285.686 88.8596C282.57 86.8836 280.29 84.1856 278.846 80.7656C277.402 77.3456 276.68 73.4316 276.68 69.0236V37.2536C276.68 35.5968 278.023 34.2536 279.68 34.2536H290.894C292.551 34.2536 293.894 35.5968 293.894 37.2536V65.4896C293.894 67.3136 294.084 69.0996 294.464 70.8476C294.844 72.5196 295.68 73.9256 296.972 75.0656C298.264 76.2056 300.278 76.7756 303.014 76.7756C306.51 76.7756 308.942 75.7116 310.31 73.5836C311.754 71.4556 312.628 68.5676 312.932 64.9196C313.236 61.2716 313.388 57.2436 313.388 52.8356V37.2536C313.388 35.5968 314.731 34.2536 316.388 34.2536H327.602C329.259 34.2536 330.602 35.5968 330.602 37.2536V87.4556C330.602 89.1125 329.259 90.4556 327.602 90.4556H314.901C314.065 90.4556 313.388 89.7782 313.388 88.9425V88.9425C313.388 87.4098 311.098 86.6785 309.929 87.6696C309.224 88.2679 308.476 88.7785 307.688 89.2016C304.648 90.8736 301.342 91.7096 297.77 91.7096ZM351.712 89.8856C354.904 91.1016 358.704 91.7096 363.112 91.7096C367.9 91.7096 372.08 90.8736 375.652 89.2016C379.3 87.5296 382.112 85.2116 384.088 82.2476C386.14 79.2836 387.166 75.8636 387.166 71.9876C387.166 68.6436 386.482 65.8696 385.114 63.6656C383.746 61.4616 381.96 59.7136 379.756 58.4216C377.628 57.0536 375.348 55.9896 372.916 55.2296C370.484 54.4696 368.166 53.8236 365.962 53.2916C363.682 52.6836 361.896 52.1896 360.604 51.8096C359.312 51.3536 358.4 50.8976 357.868 50.4416C357.412 49.9856 357.184 49.4536 357.184 48.8456C357.184 47.9336 357.716 47.1736 358.78 46.5656C359.844 45.9576 361.212 45.6536 362.884 45.6536C365.088 45.6536 367.216 46.1856 369.268 47.2496C370.376 47.8245 371.385 48.5104 372.294 49.3072C373.57 50.4256 375.494 50.6999 376.816 49.6365L382.737 44.8742C383.952 43.8969 384.233 42.1333 383.198 40.9664C381.226 38.7402 378.786 36.9586 375.88 35.6216C372.156 33.8736 367.976 32.9996 363.34 32.9996C356.652 32.9996 351.256 34.5956 347.152 37.7876C343.124 40.9796 341.11 45.1976 341.11 50.4416C341.11 53.5576 341.718 56.1416 342.934 58.1936C344.226 60.2456 345.86 61.9556 347.836 63.3236C349.888 64.6156 352.054 65.6796 354.334 66.5156C356.69 67.2756 358.932 67.9596 361.06 68.5676C362.808 69.0236 364.366 69.5176 365.734 70.0496C367.102 70.5056 368.204 71.0376 369.04 71.6456C369.876 72.2536 370.294 73.0136 370.294 73.9256C370.294 74.9136 369.686 75.8636 368.47 76.7756C367.254 77.6116 365.506 78.0296 363.226 78.0296C359.958 78.0296 357.26 77.1556 355.132 75.4076C354.053 74.489 353.08 73.5914 352.211 72.7147C351.01 71.5022 349.048 71.3333 347.768 72.4626L340.882 78.5388C339.584 79.6837 339.523 81.6858 340.815 82.8375C341.691 83.619 342.664 84.4484 343.732 85.3256C345.86 87.0736 348.52 88.5936 351.712 89.8856ZM442.931 84.0922C443.196 84.7418 443.225 85.4639 443.013 86.1327L437.725 102.805C437.111 104.739 438.555 106.712 440.584 106.712H452.991C454.24 106.712 455.359 105.937 455.799 104.768L480.803 38.31C481.541 36.3483 480.092 34.2536 477.996 34.2536H466.015C464.728 34.2536 463.584 35.0743 463.172 36.2934L454.385 62.3035C453.77 64.1254 451.189 64.1136 450.59 62.2862L442.081 36.3194C441.677 35.087 440.527 34.2536 439.23 34.2536H427.058C424.927 34.2536 423.475 36.4138 424.28 38.3871L442.931 84.0922Z"
+                            fill="black"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M56 1C57.9819 1 59.6857 2.40474 60.0636 4.35026L64.1532 25.4068C66.3587 36.7622 75.2378 45.6413 86.5932 47.8468L107.65 51.9364C109.595 52.3143 111 54.0181 111 56C111 57.9819 109.595 59.6857 107.65 60.0636L86.5932 64.1532C75.2378 66.3587 66.3587 75.2378 64.1532 86.5932L60.0636 107.65C59.6857 109.595 57.9819 111 56 111C54.0181 111 52.3143 109.595 51.9364 107.65L47.8468 86.5932C45.6413 75.2378 36.7622 66.3587 25.4068 64.1532L4.35026 60.0636C2.40474 59.6857 1 57.9819 1 56C1 54.0181 2.40474 52.3143 4.35026 51.9364L25.4068 47.8468C36.7622 45.6413 45.6413 36.7622 47.8468 25.4068L51.9364 4.35026C52.3143 2.40474 54.0181 1 56 1Z"
+                            fill="black"></path>
+                    </svg>
+                </a>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <title>bars-3-bottom-left</title>
+                            <g fill="none">
+                                <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Primary Navigation -->
+            <div class="hidden md:flex md:grow md:flex-row flex-col items-center justify-center md:space-x-1">
+                <a href="#"
+                    class="py-2 px-3 block font-[600] font-['Inter'] underline decoration-[#fece00] decoration-[3px] underline-offset-[5px]">Home</a>
+                <a href="#"
+                    class="py-2 px-3 block font-[600] font-['Inter'] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Pro</a>
+                <a href="#"
+                    class="py-2 px-3 block font-[600] font-['Inter'] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Pricing</a>
+                <a href="#"
+                    class="py-2 px-3 block font-[600] font-['Inter'] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Blog</a>
+                <a href="#"
+                    class="py-2 px-3 block font-[600] font-['Inter'] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Help</a>
+            </div>
+            <div class="hidden fixed top-3 left-3 navigation-menu">
+                <ul
+                    class="w-[153.19px] h-[283.2px] relative border-[2px] bg-white border-[#d8d1d3] rounded-[16px] shadow-[5px_6px_#ffe9a0]">
+                    <li class="h-[56px] flex justify-center items-center border-b-[2px] border-[#d8d1d3]">
+                        <button class="absolute left-4 top-[-5px] text-[40px] closeMobileMenu">&times;</button>
+                        <a href="#"
+                            class="py-2 px-3 block font-['Inter'] font-[600] underline decoration-[#fece00] decoration-[3px] underline-offset-[5px]">Home</a>
+                    </li>
+                    <li class="h-[56px] flex justify-center items-center border-b-[2px] border-[#d8d1d3]">
+                        <a href="#"
+                            class="py-2 px-3 block font-['Inter'] font-[600] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Pro</a>
+                    </li>
+                    <li class="h-[56px] flex justify-center items-center border-b-[2px] border-[#d8d1d3]">
+                        <a href="#"
+                            class="py-2 px-3 block font-['Inter'] font-[600] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Pricing</a>
+                    </li>
+                    <li class="h-[56px] flex justify-center items-center border-b-[2px] border-[#d8d1d3]">
+                        <a href="#"
+                            class="py-2 px-3 block font-['Inter'] font-[600] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Blog</a>
+                    </li>
+                    <li class="h-[56px] flex justify-center items-center border-b-[2px] border-[#d8d1d3]">
+                        <a href="#"
+                            class="py-2 px-3 block font-['Inter'] font-[600] hover:underline hover:decoration-[#d8d1d3] hover:decoration-[3px] hover:underline-offset-[5px]">Help</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex">
+                <button
+                    class="text-[1rem] font-['Inter'] border rounded-[16px] border-[#d8d1d3] font-[600] px-[16px] pb-[7px] pt-[5px]">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="w-full">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="mt-[120px]">
+                    <h1 class="text-[95px] font-[700] leading-[1]">Start Moving
+                        <br> Stay Healthy
+                    </h1>
+                    <p class="py-16 font-['Inter'] text-[20px]">Take a short break from your work to <span
+                            class="font-[700]">stretch</span>, <span class="font-[700]">get stronger</span> and <span
+                            class="font-[700]">chat</span> with your colleagues and friends.</p>
+                    <button
+                        class="font-['Inter'] text-[1.25rem] font-[700] px-[2.75rem] bg-[#ffe9a0] border rounded-[24px] border-[#fece00] h-[4rem] flex items-center justify-center">Create
+                        Session</button>
+                </div>
+                <div class="relative h-[500px] sm:h-[760px]">
+                    <svg class="absolute max-w-[486px] max-h-[449px] top-28 right-6" xmlns="http://www.w3.org/2000/svg"
+                        version="1.1" viewBox="0 0 480 416">
+                        <path fill="#fff8e2"
+                            d="M360.959 0.800237L54.7107 51.5811C32.084 55.333 15.0872 74.2781 13.8031 97.1778L0.665004 331.474C-0.819162 357.942 19.0152 380.79 45.4287 383.041L426.392 415.496C458.794 418.256 484.846 389.268 478.656 357.344L417.078 39.8116C412.025 13.7547 387.143 -3.54164 360.959 0.800237Z" />
+                    </svg>
+                    <img src="./img/pose-landing-page.webp" class="absolute scale-125" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habit" class="w-full">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+                <div class="relative h-[425px]">
+                    <svg width="328" height="284" class="absolute top-24 left-10" viewBox="0 0 328 284" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" class="svelte-1wukedq">
+                        <path
+                            d="M291.189 0.0963399L32.998 14.1684C12.9481 15.2611 -2.0232 33.0426 0.315394 52.9856L21.1861 230.966C23.0977 247.268 36.1358 260.02 52.4759 261.57L279.847 283.137C299.642 285.014 316.986 269.96 317.911 250.098L327.86 36.4786C328.82 15.8858 311.774 -1.02557 291.189 0.0963399Z"
+                            fill="#F2F2F2"></path>
+                    </svg>
+                    <img src="./img/pose-bad-posture-forward.webp" class="absolute max-w-[425px]" alt="">
+                </div>
+                <div class="md:col-span-2">
+                    <div class="w-full lg:w-[70%] mt-10 px-8">
+                        <h1 class="text-[52px] font-[600]">Break bad habits</h1>
+                        <p class="font-[700] text-[18px]">Or let others break them for you</p>
+                        <p class="py-10 text-[18px]">
+                            We all know, that it’s unhealthy to sit at a desk for too long without a pause. But even
+                            with the best intentions, it’s hard to stay consistent and take a short break regularly.
+                        </p>
+                        <p class="text-[18px]">
+                            <span class="font-[700]">Pausly</span>’s goal is to make this easier, by incentivizing you
+                            to take breaks with other people.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="together" class="mt-[100px] w-full">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div
+                class="flex justify-center mb-[150px] items-center before:content-[''] before:w-[160px] before:mr-10 before:h-[3px] before:bg-black after:content-[''] after:ml-10 after:w-[160px] after:h-[3px] after:bg-black">
+                <svg width="56" height="56" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M55.9985 0.849609C57.9858 0.849609 59.6943 2.2582 60.0732 4.20906L64.174 25.3233C66.3856 36.7099 75.289 45.6134 86.6756 47.8249L107.79 51.9258C109.741 52.3046 111.149 54.0131 111.149 56.0005C111.149 57.9878 109.741 59.6963 107.79 60.0751L86.6756 64.176C75.289 66.3875 66.3856 75.291 64.174 86.6776L60.0732 107.792C59.6943 109.743 57.9858 111.151 55.9985 111.151C54.0112 111.151 52.3027 109.743 51.9238 107.792L47.8229 86.6776C45.6114 75.291 36.708 66.3875 25.3214 64.176L4.2071 60.0751C2.25625 59.6963 0.847656 57.9878 0.847656 56.0005C0.847656 54.0131 2.25625 52.3046 4.2071 51.9258L25.3214 47.8249C36.708 45.6134 45.6114 36.7099 47.8229 25.3233L51.9238 4.20906C52.3027 2.2582 54.0112 0.849609 55.9985 0.849609Z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+            <div class="text-center w-full md:w-[55%] mx-auto">
+                <h1 class="text-[50px] font-[700]">Do it together</h1>
+                <p class="text-[20px] font-[700]">Motivate & get motivated</p>
+                <p class="my-14 text-[20px]">Create a session, and share it with your colleagues and friends. Simply
+                    send them the link and you’re
+                    ready to go. To join a session they don’t even need an account.</p>
+                <button
+                    class="mb-3 mx-auto font-['Inter'] text-[1.25rem] font-[700] px-[2.75rem] bg-[#ffe9a0] border rounded-[24px] border-[#fece00] h-[4rem] flex items-center justify-center">Create
+                    Session</button>
+                <a href="#" class="text-[18px] font-[600] text-[#006e99] hover:text-[#00a4db] no-underline">Learn more
+                    about sessions below</a>
+                <div class="grid grid-cols-1 md:grid-cols-3 mt-14">
+                    <div>
+                        <img src="./img/voice-chat.webp" class="max-w-[170px] p-[15px] border-2 border-black rounded-lg"
+                            alt="">
+                    </div>
+                    <div class="col-span-2 text-left">
+                        <h2 class="font-[700] text-[32px]">Optional voice chat</h2>
+                        <p class="text-[18px] mt-7">When you join a session, you can also join the <span
+                                class="font-[700]">Audio Only Chat</span>. So you can get
+                            updated on
+                            the latest gossip while you stretch and strengthen your body.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex justify-center my-[150px] items-center before:content-[''] before:w-[160px] before:mr-10 before:h-[3px] before:bg-black after:content-[''] after:ml-10 after:w-[160px] after:h-[3px] after:bg-black">
+                <svg width="56" height="56" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M55.9985 0.849609C57.9858 0.849609 59.6943 2.2582 60.0732 4.20906L64.174 25.3233C66.3856 36.7099 75.289 45.6134 86.6756 47.8249L107.79 51.9258C109.741 52.3046 111.149 54.0131 111.149 56.0005C111.149 57.9878 109.741 59.6963 107.79 60.0751L86.6756 64.176C75.289 66.3875 66.3856 75.291 64.174 86.6776L60.0732 107.792C59.6943 109.743 57.9858 111.151 55.9985 111.151C54.0112 111.151 52.3027 109.743 51.9238 107.792L47.8229 86.6776C45.6114 75.291 36.708 66.3875 25.3214 64.176L4.2071 60.0751C2.25625 59.6963 0.847656 57.9878 0.847656 56.0005C0.847656 54.0131 2.25625 52.3046 4.2071 51.9258L25.3214 47.8249C36.708 45.6134 45.6114 36.7099 47.8229 25.3233L51.9238 4.20906C52.3027 2.2582 54.0112 0.849609 55.9985 0.849609Z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div>
+                    <h1 class="font-[600] text-[52px] font-['Inter']">SessionsLink</h1>
+                    <p class="font-[700] text-[20px] mb-14">Stretches & strength exercises</p>
+                    <p class="text-[18px] mb-9">A session is a collection of movements that you can perform alone or
+                        together with
+                        others. It’s always
+                        around four to five minutes, but never <span class="font-[700]">longer than 5 minutes</span>.
+                    </p>
+                    <p class="text-[18px] mb-9">The movements have been chosen to be easy to do for most people, but you
+                        always have
+                        the choice to get
+                        <a href="#" class="font-[600] text-[#006e99] hover:text-[#00a4db] no-underline">alternative
+                            movements</a> if something isn’t right for you.
+                    </p>
+                    <p class="text-[18px] mb-9">You’ll never break a sweat... hopefully.</p>
+                    <button
+                        class="mb-3 font-['Inter'] text-[1.25rem] font-[700] px-[2.75rem] bg-[#ffe9a0] border rounded-[24px] border-[#fece00] h-[4rem] flex items-center justify-center">Create
+                        Session</button>
+                </div>
+                <div class="number flex justify-center items-center">
+                    <h1 class="font-[900] text-[#90e8c8] text-[400px] font-['Inter']"
+                        style="text-shadow: 0 3px 0 #00c494;">1</h1>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="flex items-center">
+                    <div>
+                        <h1 class="font-[700] text-[36px]">It’s like your personal trainer</h1>
+                        <p class="font-[700] text-[20px] mb-9">But with less talking</p>
+                        <p class="text-[18px] mb-9">During a session, everybody gets countdowns to the next movement,
+                            visual
+                            representations of how the movements are performed and audio cues..</p>
+                        <p class="text-[18px] mb-9">The sessions alternate between stretches and very light strength /
+                            core
+                            exercises which never last longer than a minute.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img src="./img/pose-landing-page.webp" alt="">
+                </div>
+            </div>
+            <div
+                class="flex justify-center my-[150px] items-center before:content-[''] before:w-[160px] before:mr-10 before:h-[3px] before:bg-black after:content-[''] after:ml-10 after:w-[160px] after:h-[3px] after:bg-black">
+                <svg width="56" height="56" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M55.9985 0.849609C57.9858 0.849609 59.6943 2.2582 60.0732 4.20906L64.174 25.3233C66.3856 36.7099 75.289 45.6134 86.6756 47.8249L107.79 51.9258C109.741 52.3046 111.149 54.0131 111.149 56.0005C111.149 57.9878 109.741 59.6963 107.79 60.0751L86.6756 64.176C75.289 66.3875 66.3856 75.291 64.174 86.6776L60.0732 107.792C59.6943 109.743 57.9858 111.151 55.9985 111.151C54.0112 111.151 52.3027 109.743 51.9238 107.792L47.8229 86.6776C45.6114 75.291 36.708 66.3875 25.3214 64.176L4.2071 60.0751C2.25625 59.6963 0.847656 57.9878 0.847656 56.0005C0.847656 54.0131 2.25625 52.3046 4.2071 51.9258L25.3214 47.8249C36.708 45.6134 45.6114 36.7099 47.8229 25.3233L51.9238 4.20906C52.3027 2.2582 54.0112 0.849609 55.9985 0.849609Z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div>
+                    <h1 class="font-[600] text-[52px] font-['Inter']">Plenty of movements</h1>
+                    <p class="font-[700] text-[20px] mb-10">You won’t get bored</p>
+                    <p class="text-[18px] mb-7">With over 100 movements, your breaks never get boring. And new ones are
+                        added constantly.
+                    </p>
+                    <p class="text-[18px]">If you want to get more information about how a movement is performed,
+                        simply click on the thumbnail and you’ll get a full description.
+                    </p>
+                </div>
+                <div class="text-right">
+                    <h1 class="font-[700] font-['Inter'] text-[52px] text-[#006e99] text-right leading-[1]">100+ <br>
+                        Movements</h1>
+                </div>
+            </div>
+            <h2 class="font-[700] text-[22px] font-['Inter'] mt-[90px] mb-4">New in Rotation:</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#ffe9a0] bg-[#fff2bd]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+                <div
+                    class="rounded-md cursor-pointer flex justify-center items-center border border-[#E4E4E2] bg-[#FCFCFB]">
+                    <img src="./img/pose-landing-page.webp" class="max-w-[171.6px] px-3 py-5" alt="">
+                </div>
+
+            </div>
+            <div
+                class="flex justify-center my-[150px] items-center before:content-[''] before:w-[160px] before:mr-10 before:h-[3px] before:bg-black after:content-[''] after:ml-10 after:w-[160px] after:h-[3px] after:bg-black">
+                <svg width="56" height="56" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M55.9985 0.849609C57.9858 0.849609 59.6943 2.2582 60.0732 4.20906L64.174 25.3233C66.3856 36.7099 75.289 45.6134 86.6756 47.8249L107.79 51.9258C109.741 52.3046 111.149 54.0131 111.149 56.0005C111.149 57.9878 109.741 59.6963 107.79 60.0751L86.6756 64.176C75.289 66.3875 66.3856 75.291 64.174 86.6776L60.0732 107.792C59.6943 109.743 57.9858 111.151 55.9985 111.151C54.0112 111.151 52.3027 109.743 51.9238 107.792L47.8229 86.6776C45.6114 75.291 36.708 66.3875 25.3214 64.176L4.2071 60.0751C2.25625 59.6963 0.847656 57.9878 0.847656 56.0005C0.847656 54.0131 2.25625 52.3046 4.2071 51.9258L25.3214 47.8249C36.708 45.6134 45.6114 36.7099 47.8229 25.3233L51.9238 4.20906C52.3027 2.2582 54.0112 0.849609 55.9985 0.849609Z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div>
+                    <h1 class="font-[700] text-[52px] font-['Inter']">Fun microgames</h1>
+                    <p class="font-[700] text-[20px] mb-10">Stay motivated</p>
+                    <p class="text-[18px] mb-7">Stay motivated by getting achievements and maintaining your streak - and
+                        getting achievements for maintaining your streak :)
+                    </p>
+                    <p class="text-[18px]">There are over 40 different achievements that keep you motivated and are fun
+                        to share with your friends — like completing a session with 10 people in it, or completing 100
+                        sessions in total.
+                    </p>
+                </div>
+                <div class="text-right">
+                    <h1 class="font-[700] font-['Inter'] text-[52px] text-[#006e99] text-right leading-[1]">Over 40 <br>
+                        Achievements <br>
+                        + Streaks</h1>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 my-20">
+                <div class="pr-10   ">
+                    <h1 class="font-[700] text-[34px] font-['Inter']">Outfits</h1>
+                    <p class="font-[700] text-[20px] mb-7">You’ll always look your best</p>
+                    <p class="text-[16px] mb-5">After each completed session, you have the chance to get a random
+                        accessory. There are over <span class="font-[700]">500 different outfits</span> your avatar can
+                        wear.
+                    </p>
+                    <p class="text-[16px]">Whenever you create a session, all the people that join your session can see
+                        the outfit that you have put together. And you can always show it on your profile page.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7">
+                    <div
+                        class="rounded-2xl cursor-pointer flex justify-center items-center h-fit border-4 border-[#E4E4E2] bg-[#FCFCFB]">
+                        <img src="./img/cap.webp" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="rounded-2xl cursor-pointer flex justify-center items-center h-fit border-4 border-[#E4E4E2] bg-[#FCFCFB]">
+                        <img src="./img/t-shirt-blm.webp" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="rounded-2xl cursor-pointer flex justify-center items-center h-fit border-4 border-[#E4E4E2] bg-[#FCFCFB]">
+                        <img src="./img/headband-red.webp" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="rounded-2xl cursor-pointer flex justify-center items-center h-fit border-4 border-[#E4E4E2] bg-[#FCFCFB]">
+                        <img src="./img/gold-chain.webp" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="rounded-2xl cursor-pointer flex justify-center items-center h-fit border-4 border-[#E4E4E2] bg-[#FCFCFB]">
+                        <img src="./img/t-shirt-blue.webp" class="w-full" alt="">
+                    </div>
+                    <div
+                        class="rounded-2xl cursor-pointer flex justify-center items-center h-fit border-4 border-[#E4E4E2] bg-[#FCFCFB]">
+                        <img src="./img/vr-headset.webp" class="w-full" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="w-full md:w-[65%] md:mx-auto text-center text-[32px] font-[600] my-[150px]">
+                We also sprinkle in satisfying sounds and animations to trigger the reward system in your lizard brain.
+            </p>
+        </div>
+    </section>
+
+    <section class="bg-[#1E1D1A] text-white py-[120px]">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div>
+                    <h1 class="font-[700] text-[52px] font-['Inter']">InclusiveLink</h1>
+                    <p class="font-[700] text-[20px] mb-10">We meet your needs</p>
+                    <p class="text-[18px] mb-7">Whether you are sitting in a <span
+                            class="text-[#FFDD6A]">wheelchair</span>, working in an office where you
+                        can’t do movements on the <span class="text-[#FFDD6A]">floor</span>, sitting in a <span
+                            class="text-[#FFDD6A]">train or bus</span>, wearing a <span class="text-[#FFDD6A]">skirt or
+                            thight pants</span>, or
+                        simply don’t want to stand up to attract attention; <span class="text-[#FFDD6A]">we got you
+                            covered</span>.
+                    </p>
+                    <p class="text-[18px] mb-7">We offer <span class="text-[#FFDD6A]">variations</span> for all
+                        movements. You can simply select which
+                        limitations apply to you before or during a session and you’re good to go.
+                    </p>
+                    <p class="text-[18px]">Pausly has an optional <span class="text-[#FFDD6A]">Text-To-Speech</span>
+                        (TTS) option that reads the movements
+                        and hints out loud so you can follow along without seeing the screen.
+                    </p>
+                </div>
+                <div class="text-right">
+                    <h1 class="font-[700] font-['Inter'] text-[52px] text-[#FFDD6A] text-right leading-[1]">Alternative
+                        <br>
+                        Movements + <br>
+                        Text To Speech
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="md:py-[200px]">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="w-full md:w-1/2 md:mx-auto text-center">
+                <h1 class="font-[600] text-[52px] mb-10">Let’s go!</h1>
+                <p class="text-[20px] mb-10 md:px-10">We’ve got nothing more to say, and it’s probably time for you to
+                    take a short break anyway. So click
+                    the button! </p>
+                <button
+                    class="font-['Inter'] text-[1.25rem] mx-auto font-[700] px-[2.75rem] bg-[#ffe9a0] border rounded-[24px] border-[#fece00] h-[4rem] flex items-center justify-center">Create
+                    Session</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#1E1D1A] text-white pt-24 pb-40">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3">
+                <div class="col-span-2">
+                    <svg width="137.71" height="32" viewBox="0 0 482 112" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M153.922 20.4121C152.265 20.4121 150.922 21.7553 150.922 23.4121V87.4576C150.922 89.1145 152.265 90.4576 153.922 90.4576H165.706C167.363 90.4576 168.706 89.1145 168.706 87.4576V70.9501C168.706 69.2933 170.049 67.9501 171.706 67.9501H178.852C187.896 67.9501 194.736 65.8981 199.372 61.7941C204.084 57.6901 206.44 51.6861 206.44 43.7821C206.44 35.8781 204.122 30.0261 199.486 26.2261C194.926 22.3501 188.048 20.4121 178.852 20.4121H153.922ZM177.028 51.9901H171.706C170.049 51.9901 168.706 50.647 168.706 48.9901V39.3721C168.706 37.7153 170.049 36.3721 171.706 36.3721H177.028C180.98 36.3721 183.868 36.9041 185.692 37.9681C187.592 38.9561 188.542 40.9701 188.542 44.0101C188.542 47.2021 187.516 49.3301 185.464 50.3941C183.488 51.4581 180.676 51.9901 177.028 51.9901ZM411.18 91.7096C407.076 91.7096 403.618 90.4936 400.806 88.0616C397.994 85.5536 396.588 81.6016 396.588 76.2056V23.5901C396.588 21.9332 397.932 20.5901 399.588 20.5901H410.688C412.345 20.5901 413.688 21.9332 413.688 23.5901V72.7856C413.688 73.9256 413.992 74.7236 414.6 75.1796C415.284 75.6356 416.12 75.8636 417.108 75.8636C417.716 75.8636 418.286 75.8256 418.818 75.7496C418.904 75.7282 419.034 75.7078 419.203 75.6813L419.203 75.6812C419.241 75.6753 419.281 75.669 419.322 75.6624C421.866 75.257 425.23 76.9517 425.23 79.5278V85.8735C425.23 86.8972 424.712 87.8606 423.823 88.3683C419.794 90.6698 417.03 91.0467 415.524 91.2521L415.512 91.2536C413.916 91.5576 412.472 91.7096 411.18 91.7096ZM251.678 90.4556C250.716 90.4556 249.886 89.7799 249.692 88.8378L249.296 86.9238C249.091 85.9343 247.777 85.6371 247.062 86.3516V86.3516C245.086 88.4036 242.958 89.8096 240.678 90.5696C238.474 91.3296 236.308 91.7096 234.18 91.7096C230.152 91.7096 226.466 90.9496 223.122 89.4296C219.854 87.8336 217.232 85.5916 215.256 82.7036C213.356 79.8156 212.406 76.4716 212.406 72.6716C212.406 69.4036 213.09 66.5536 214.458 64.1216C215.902 61.6896 217.802 59.8276 220.158 58.5356C221.906 57.5476 223.882 56.8256 226.086 56.3696C228.29 55.9136 230.646 55.6856 233.154 55.6856H247.746C248.25 55.6856 248.658 55.2773 248.658 54.7736V54.7736C248.658 52.1136 247.708 50.2136 245.808 49.0736C243.908 47.9336 241.552 47.3636 238.74 47.3636C235.776 47.3636 232.622 47.9336 229.278 49.0736C227.17 49.7446 225.272 50.5213 223.587 51.4038C222.048 52.2092 220.081 51.8024 219.183 50.3158L215.035 43.4449C214.203 42.0673 214.602 40.2704 215.985 39.4485C219.606 37.2972 223.125 35.7556 226.542 34.8236C230.798 33.6076 235.358 32.9996 240.222 32.9996C248.202 32.9996 254.434 34.9756 258.918 38.9276C263.478 42.8036 265.758 48.0856 265.758 54.7736V87.4556C265.758 89.1125 264.415 90.4556 262.758 90.4556H251.678ZM247.062 73.0136C247.418 72.5052 247.715 71.9712 247.951 71.4117C248.622 69.8279 247.198 68.3396 245.478 68.3396H235.662C234.75 68.3396 233.914 68.4156 233.154 68.5676C232.47 68.7196 231.862 68.9856 231.33 69.3656C230.798 69.7456 230.38 70.2396 230.076 70.8476C229.772 71.3796 229.62 71.9876 229.62 72.6716C229.62 74.2676 230.266 75.5596 231.558 76.5476C232.926 77.4596 234.712 77.9156 236.916 77.9156C239.044 77.9156 240.982 77.4976 242.73 76.6616C244.554 75.7496 245.998 74.5336 247.062 73.0136ZM297.77 91.7096C292.83 91.7096 288.802 90.7596 285.686 88.8596C282.57 86.8836 280.29 84.1856 278.846 80.7656C277.402 77.3456 276.68 73.4316 276.68 69.0236V37.2536C276.68 35.5968 278.023 34.2536 279.68 34.2536H290.894C292.551 34.2536 293.894 35.5968 293.894 37.2536V65.4896C293.894 67.3136 294.084 69.0996 294.464 70.8476C294.844 72.5196 295.68 73.9256 296.972 75.0656C298.264 76.2056 300.278 76.7756 303.014 76.7756C306.51 76.7756 308.942 75.7116 310.31 73.5836C311.754 71.4556 312.628 68.5676 312.932 64.9196C313.236 61.2716 313.388 57.2436 313.388 52.8356V37.2536C313.388 35.5968 314.731 34.2536 316.388 34.2536H327.602C329.259 34.2536 330.602 35.5968 330.602 37.2536V87.4556C330.602 89.1125 329.259 90.4556 327.602 90.4556H314.901C314.065 90.4556 313.388 89.7782 313.388 88.9425V88.9425C313.388 87.4098 311.098 86.6785 309.929 87.6696C309.224 88.2679 308.476 88.7785 307.688 89.2016C304.648 90.8736 301.342 91.7096 297.77 91.7096ZM351.712 89.8856C354.904 91.1016 358.704 91.7096 363.112 91.7096C367.9 91.7096 372.08 90.8736 375.652 89.2016C379.3 87.5296 382.112 85.2116 384.088 82.2476C386.14 79.2836 387.166 75.8636 387.166 71.9876C387.166 68.6436 386.482 65.8696 385.114 63.6656C383.746 61.4616 381.96 59.7136 379.756 58.4216C377.628 57.0536 375.348 55.9896 372.916 55.2296C370.484 54.4696 368.166 53.8236 365.962 53.2916C363.682 52.6836 361.896 52.1896 360.604 51.8096C359.312 51.3536 358.4 50.8976 357.868 50.4416C357.412 49.9856 357.184 49.4536 357.184 48.8456C357.184 47.9336 357.716 47.1736 358.78 46.5656C359.844 45.9576 361.212 45.6536 362.884 45.6536C365.088 45.6536 367.216 46.1856 369.268 47.2496C370.376 47.8245 371.385 48.5104 372.294 49.3072C373.57 50.4256 375.494 50.6999 376.816 49.6365L382.737 44.8742C383.952 43.8969 384.233 42.1333 383.198 40.9664C381.226 38.7402 378.786 36.9586 375.88 35.6216C372.156 33.8736 367.976 32.9996 363.34 32.9996C356.652 32.9996 351.256 34.5956 347.152 37.7876C343.124 40.9796 341.11 45.1976 341.11 50.4416C341.11 53.5576 341.718 56.1416 342.934 58.1936C344.226 60.2456 345.86 61.9556 347.836 63.3236C349.888 64.6156 352.054 65.6796 354.334 66.5156C356.69 67.2756 358.932 67.9596 361.06 68.5676C362.808 69.0236 364.366 69.5176 365.734 70.0496C367.102 70.5056 368.204 71.0376 369.04 71.6456C369.876 72.2536 370.294 73.0136 370.294 73.9256C370.294 74.9136 369.686 75.8636 368.47 76.7756C367.254 77.6116 365.506 78.0296 363.226 78.0296C359.958 78.0296 357.26 77.1556 355.132 75.4076C354.053 74.489 353.08 73.5914 352.211 72.7147C351.01 71.5022 349.048 71.3333 347.768 72.4626L340.882 78.5388C339.584 79.6837 339.523 81.6858 340.815 82.8375C341.691 83.619 342.664 84.4484 343.732 85.3256C345.86 87.0736 348.52 88.5936 351.712 89.8856ZM442.931 84.0922C443.196 84.7418 443.225 85.4639 443.013 86.1327L437.725 102.805C437.111 104.739 438.555 106.712 440.584 106.712H452.991C454.24 106.712 455.359 105.937 455.799 104.768L480.803 38.31C481.541 36.3483 480.092 34.2536 477.996 34.2536H466.015C464.728 34.2536 463.584 35.0743 463.172 36.2934L454.385 62.3035C453.77 64.1254 451.189 64.1136 450.59 62.2862L442.081 36.3194C441.677 35.087 440.527 34.2536 439.23 34.2536H427.058C424.927 34.2536 423.475 36.4138 424.28 38.3871L442.931 84.0922Z"
+                            fill="white"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M56 1C57.9819 1 59.6857 2.40474 60.0636 4.35026L64.1532 25.4068C66.3587 36.7622 75.2378 45.6413 86.5932 47.8468L107.65 51.9364C109.595 52.3143 111 54.0181 111 56C111 57.9819 109.595 59.6857 107.65 60.0636L86.5932 64.1532C75.2378 66.3587 66.3587 75.2378 64.1532 86.5932L60.0636 107.65C59.6857 109.595 57.9819 111 56 111C54.0181 111 52.3143 109.595 51.9364 107.65L47.8468 86.5932C45.6413 75.2378 36.7622 66.3587 25.4068 64.1532L4.35026 60.0636C2.40474 59.6857 1 57.9819 1 56C1 54.0181 2.40474 52.3143 4.35026 51.9364L25.4068 47.8468C36.7622 45.6413 45.6413 36.7622 47.8468 25.4068L51.9364 4.35026C52.3143 2.40474 54.0181 1 56 1Z"
+                            fill="white"></path>
+                    </svg>
+                    <p class="text-[18px] mt-6">Copyright © 2022-2023 Pausly e.U.</p>
+                    <p class="text-[18px]">All Rights Reserved</p>
+                </div>
+                <div class="grid grid-cols-2">
+                    <div class="pro">
+                        <h2 class="mb-3 text-[24px] font-[600]">Product</h2>
+                        <ul>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Home</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Pro</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Pricing</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Company">
+                        <h2 class="mb-3 text-[24px] font-[600]">Company</h2>
+                        <ul>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Contact</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Legal Notice</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Terms of Sevice</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-[17px] hover:text-[#FFE9A0]">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector(".mobile-menu-button");
+        const closemobileMenu = document.querySelector(".closeMobileMenu");
+        const mobileMenu = document.querySelector(".navigation-menu");
+
+        mobileMenuButton.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        })
+
+        closemobileMenu.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        })
+
+    </script>
+</body>
+
+</html>
